@@ -1,0 +1,165 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.heading{
+    background-color: rgb(43, 70, 117);
+    padding: 10px 2px;
+}
+
+.heading marquee{
+    color: white;
+}
+
+.logo{
+    margin-top: 20px;
+    text-align: center;
+}
+
+.logo img{
+    height: 90px;
+}
+
+.navbar{
+    margin-top: 20px;
+    border-bottom: 5px solid rgb(43, 70, 117);
+    padding-bottom: 10px;
+}
+
+.navbar a{
+   text-decoration: none;
+   color: black;
+   font-size: 18px;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar a:hover{
+    color:red;
+}
+
+.img{
+    height: 500px;
+    background: url("./Operation_Sindoor_2025-5-9-17-3-49.jpg");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.vision, .mission, .history{
+    border-bottom:2px solid rgb(43, 70, 117) ;
+}
+
+.vision label{
+    color: white;
+    font-size: 25px;
+    background-color:rgb(43, 70, 117);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.vision ul{
+    font-size: 18px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    color:rgb(99, 98, 98);
+}
+
+.mission label{
+    color: white;
+    font-size: 25px;
+    background-color:rgb(43, 70, 117);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.mission ul{
+    font-size: 18px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    color: rgb(99, 98, 98);
+}
+
+.history label{
+    color: white;
+    font-size: 25px;
+    background-color:rgb(43, 70, 117);
+    text-transform: uppercase;
+    padding: 10px;
+}
+
+.history p{
+    font-size: 18px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+    color: rgb(99, 98, 98);
+}
+
+.dept_img{
+    height: 280px;
+    background: url("./dept_img_2025-3-26-17-50-0.png");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.admi_img{
+    height: 300px;
+    background: url("./nit-admin-guidelines-banner.jpg");
+    background-size:contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.announcements{
+    margin-left: 20%;
+    width: 800px;
+    text-align: center;
+    color: rgba(0, 0, 255, 0.836);
+    background-color: rgba(128, 128, 128, 0.788);
+    border-radius: 5px;
+}
+
+.announcements h2{
+    font-size: 40px;
+}
+
+.detail{
+    margin: 10px 20px 0px 20px;
+}
+
+.detail h3{
+    font-size: 30px;
+}
+
+.detail p{
+    font-size: 18px;
+    padding-bottom: 20px;
+    color: rgb(99, 98, 98);
+    line-height: 30px;
+}
+
+.detail h4{
+    color: rgb(190, 3, 3);
+    font-size: 23px;
+}
+
+.gallery{
+    padding: 40px;
+    background-color: rgba(128, 128, 128, 0.384);
+}
+
+.gallery div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.gallery img{
+    border-radius: 5px;
+}
