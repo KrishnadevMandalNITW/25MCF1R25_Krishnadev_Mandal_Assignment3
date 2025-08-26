@@ -61,6 +61,8 @@
     background-color:rgb(43, 70, 117);
     text-transform: uppercase;
     padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 
 .vision ul{
@@ -76,6 +78,8 @@
     background-color:rgb(43, 70, 117);
     text-transform: uppercase;
     padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 
 .mission ul{
@@ -91,6 +95,8 @@
     background-color:rgb(43, 70, 117);
     text-transform: uppercase;
     padding: 10px;
+    border-radius: 5px;
+    margin-left: 10px;
 }
 
 .history p{
@@ -106,6 +112,56 @@
     background-size:contain;
     background-position: center;
     background-repeat: no-repeat;
+}
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px 80px;
+}
+
+.cards div{
+    padding: 12px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    
+}
+
+.cards div h3{
+    font-size: 25px;
+    color:rgb(43, 70, 117);
+    margin: 40px 0px;
+}
+
+.cards div button a{
+    text-decoration: none;
+    color:rgb(43, 70, 117) ;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.cards div button{
+    border: 2px solid rgb(43, 70, 117);
+    background-color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 40px;
+}
+
+.cards img{
+    width: 340px;
+    height: 260px;
+}
+
+.cards button:hover{
+    background-color: rgb(43, 70, 117);
+    transition: 0.2s;
+}
+
+.cards button a:hover{
+    font-weight: bold;
+    color: white;
+    transition: 0.2s;
 }
 
 .admi_img{
@@ -162,4 +218,17 @@
 
 .gallery img{
     border-radius: 5px;
+}
+
+.contact{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin: 10px 20px 0px 20px;
+}
+
+.cont_detail ul{
+    margin-top: 32px;
+    font-size: 18px;
+    line-height: 30px;
 }
